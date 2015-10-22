@@ -1,0 +1,44 @@
+html,
+body {
+    height: 100%;
+    font-family: 'Muli', sans-serif;
+}
+h1 {
+    font-size: 6em;
+    color: #607D8B;
+}
+#logo {
+    font-family: 'Helvetica', 'Arial';
+    font-size: 6em;
+}
+h2 {
+    font-size: 4em;
+}
+h3 {
+    font-size: 2em;
+}
+p {
+    font-size: 2em;
+}
+.vert-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#bottom-controls {
+    position: fixed;
+    bottom: .5em;
+    right: .5em;
+}
+#top-controls {
+    position: fixed;
+    top: .5em;
+    right: .5em;
+}
+.btn:focus {
+    outline: none;
+}
+.btn:hover {
+    text-decoration: none;
+}
